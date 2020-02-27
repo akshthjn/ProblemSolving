@@ -7,7 +7,7 @@ function twoSum(nums, target) {
             var sum = nums[i]+nums[i+1];
         if(sum==target){
 
-            console.log([i,j]);//returns [0,1]
+            return([i,j]);//returns [0,1]
 
 
         }
@@ -19,8 +19,7 @@ function twoSum(nums, target) {
         return[];
 
 };
-twoSum([2,7,11,15],9);
-
+console.log(twoSum([2,7,11,15],9));
 
 ___________________________________________________________
 //faster way
